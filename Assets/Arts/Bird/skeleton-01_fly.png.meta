@@ -1,20 +1,24 @@
 fileFormatVersion: 2
-guid: e1f2f50e4f2c64870825015eb3f814dc
+guid: f6aa545f22bbe4879a771df6255361dc
 TextureImporter:
   fileIDToRecycleName:
-    21300000: blue_pipe_top
-    21300002: blue_pipe_undertop
-    21300004: blue_pipe_pipe
-    21300006: red_pipe_pipe
-    21300008: colored_pipes_2
-    21300010: yellow_pipe_top
-    21300012: yellow_pipe_undertop
-    21300014: yellow_pipe_pipe
-    21300016: rep_pipe_top
-    21300018: red_pipe_undertop
-    21300020: green_pipe_top
-    21300022: green_pipe_undertop
-    21300024: green_pipe_pipe
+    21300000: skeleton-01_fly_0
+    21300002: skeleton-01_fly_1
+    21300004: skeleton-01_fly_2
+    21300006: skeleton-01_fly_3
+    21300008: skeleton-01_fly_4
+    21300010: skeleton-01_fly_5
+    21300012: skeleton-01_fly_6
+    21300014: skeleton-01_fly_7
+    21300016: skeleton-01_fly_8
+    21300018: skeleton-01_fly_9
+    21300020: skeleton-01_fly_10
+    21300022: skeleton-01_fly_11
+    21300024: skeleton-01_fly_12
+    21300026: skeleton-01_fly_13
+    21300028: skeleton-01_fly_14
+    21300030: skeleton-01_fly_15
+    21300032: skeleton-01_fly_16
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -60,7 +64,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -119,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blue_pipe_top
+      name: skeleton-01_fly_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 149
-        width: 38
-        height: 11
+        y: 504
+        width: 160
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,19 +137,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dea06ab1f83bc49bc9289c10bc3317f0
+      spriteID: ac9c48cb1219a43c2a7e7b8b4068f311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue_pipe_undertop
+      name: skeleton-01_fly_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 139
-        width: 32
-        height: 10
+        x: 160
+        y: 504
+        width: 160
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,39 +157,299 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 153c829c5cd3b46f69bc118dcc6fe730
+      spriteID: 87086ee8f308d4ed5965af19c2dfbec5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue_pipe_pipe
+      name: skeleton-01_fly_2
       rect:
         serializedVersion: 2
-        x: 3
+        x: 320
+        y: 504
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d76ad9a0b4544cde860ad6ec1513ea8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 504
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461f1a6127a0049f89bf8c7ec265b686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c66efd697c243d6b5c2de94b7d8fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 378
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ee418d455c04dc280d5436d8709c00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 378
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957b441f27b3143d5bf19376824ef005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 378
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0de403fdc18402aa35166c718381cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd2918cd5e674da884ebdda1cead90a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 252
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0c13ab0d73b478a8a55b53476e50b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 252
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ea6a101a2734a65b0aa119d0d29830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 252
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952a992abe4134162934bd792d10378a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765e6438d89e4054901b4c341f48569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 126
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced31ea515d3f41a796e284224273889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 126
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1568c53c47fff4e23a411f6006d44e3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 126
+        width: 160
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5c6b75b8d604b7d829f11566f7107a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-01_fly_16
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 32
-        height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc2b97ae9a9c440fcb87383183c6ee90
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: red_pipe_pipe
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 0
-        width: 32
-        height: 139
+        width: 160
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,187 +457,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53ae43b9d14004306bf0233c6cb4110a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: colored_pipes_2
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 27
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16b6b32326c794be193f9263923428fa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellow_pipe_top
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 149
-        width: 38
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f5a6e635002e4c1298308a679dfd908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellow_pipe_undertop
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 139
-        width: 32
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc1fb7de7219544be935d4150a785018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellow_pipe_pipe
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 0
-        width: 32
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a8b05467af0f43a3a888adc7c3ffd3f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rep_pipe_top
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 149
-        width: 38
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35e6383fa60954908995e303da4418ee
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: red_pipe_undertop
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 139
-        width: 32
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf9542de8d9f54b8ba835fefbb414549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: green_pipe_top
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 149
-        width: 38
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1aca093f6f83645e9bede12dec3c136e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: green_pipe_undertop
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 139
-        width: 32
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00e8fb15686284ff195b99809952ccf3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: green_pipe_pipe
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 0
-        width: 32
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 443af67f57b6a45dfaec3ccf8bc54185
+      spriteID: df382307af4334607b2aa2858c70849f
       vertices: []
       indices: 
       edges: []
@@ -381,7 +465,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2a386289417b5432f87441f2bc19f627
+    spriteID: 3a38acf040de0480abf29b55f8d0e602
     vertices: []
     indices: 
     edges: []
